@@ -1,4 +1,6 @@
 site_name: Sawblade Wiki
+site_url: https://sawblade-entertainment.github.io/SawbladeWiki/
+repo_url: https://github.com/Sawblade-Entertainment/SawbladeWiki
 theme:
   name: terminal
   palette: dark
