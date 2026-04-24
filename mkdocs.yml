@@ -1,6 +1,18 @@
 site_name: Sawblade Wiki
-theme: bootstrap386
+theme:
+  name: terminal
+  palette: dark
+  features:
+    - footer.prev_next
+    - revision.date
+nav:
+  - Home: 'index.md'
+  - About: 'about.md'
+  - Backrooms 1999:
+    - Wiki: 'Backrooms 1999/index.md'
+    - Developer Log: 'Backrooms 1999/devlog.md'
 plugins:
+  - git-revision-date
   - search
   - minify:
       minify_html: true
