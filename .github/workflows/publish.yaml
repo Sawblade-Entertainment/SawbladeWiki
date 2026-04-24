@@ -24,9 +24,9 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install Conversion Tool and Minifier
+      - name: Install Conversion Tool, Theme, and Minifier
         run: |
-          pip install mkdocs mkdocs-material mkdocs-minify-plugin
+          pip install mkdocs mkdocs-material mkdocs-minify-plugin mkdocs-bootstrap386
 
       - name: Convert Markdown to HTML and Minify
         run: |
