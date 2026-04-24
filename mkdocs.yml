@@ -1,4 +1,5 @@
 site_name: Sawblade Wiki
+theme: bootstrap386
 plugins:
   - search
   - minify:

@@ -1,3 +1,5 @@
-# Welcome to Sawblade Entertainment's Official Wiki
+# Welcome!
+
+#### This is the Official Sawblade Entertainment Wiki
 
 🚧 Under constuction, come back later! 🚧
