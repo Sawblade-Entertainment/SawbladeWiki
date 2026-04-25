@@ -39,7 +39,7 @@
     - Example, Floor1Open left socket, Floor2Open right socket could be applied to a tile transitioning in between two hallways with different elevation. <br>
 - The idea for improvement here is adding more detail per tile, narrowing the hallways, and making the rooms feel open but uniform (with some backrooms style irregularities of course) <br>
 
-![EarlyMapOverview](https://cdn.discordapp.com/attachments/1496872842363670710/1496881034384511026/Screenshot_2026-04-23_at_9.14.03_AM.png?ex=69eb7e99&is=69ea2d19&hm=8add685877f49fc84f4566c570bf799286b7fede1bdeebc9902f164657ce5726&)
+![EarlyMapOverview](https://raw.githubusercontent.com/Sawblade-Entertainment/SawbladeWiki/refs/heads/main/images/4-23-2026/MapOverview.png)
 
 **Level Generation** <br>
 - This is an overview of the current prototype level <br>
