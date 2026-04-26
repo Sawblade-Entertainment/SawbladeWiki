@@ -3,7 +3,7 @@
 ---
 
 ## 4/26/2026
-** Time Slip Mechanic**
+**Time Slip Mechanic**
 
 Time slip is ran every SLIP_CHECK_INTERVAL seconds, on players ISOLATION_DISTANCE studs away from others, with a SLIP_CHANCE percentage based probability of occurring.<br>
 When a slip does occur a player is place randomly into Past, Present, or Future. They can be placed into the same period they were already.<br>
