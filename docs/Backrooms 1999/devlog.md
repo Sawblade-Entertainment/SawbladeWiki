@@ -2,6 +2,28 @@
 
 ---
 
+## 4/26/2026
+** Time Slip Mechanic**
+
+Time slip is ran every SLIP_CHECK_INTERVAL seconds, on players ISOLATION_DISTANCE studs away from others, with a SLIP_CHANCE percentage based probability of occurring.<br>
+When a slip does occur a player is place randomly into Past, Present, or Future. They can be placed into the same period they were already.<br>
+You will only see and collide with objects or players in the same time period as you. If you stick together you won't lose your friends.<br>
+
+![Time Slip Example|140](https://raw.githubusercontent.com/Sawblade-Entertainment/SawbladeWiki/refs/heads/main/images/4-26-2026/TimePeriodSlip.gif)
+
+In the gif above you can see:
+
+- Green orb is a future object<br>
+- Orange orb is a present object<br>
+- Red orb is a past object<br>
+
+- Test settings<br>
+    - ISOLATION_DISTANCE = 0<br>
+    - SLIP_CHANCE = 100<br>
+    - SLIP_CHECK_INTERVAL = 1<br>
+    
+---
+
 ## 4/23/2026
 **Lobby Screen** <br>
 - Lobby music <br>
