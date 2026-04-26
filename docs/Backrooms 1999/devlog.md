@@ -5,10 +5,9 @@
 ## 4/26/2026
 **Time Slip Mechanic**
 
-Time slip is ran every SLIP_CHECK_INTERVAL seconds, on players ISOLATION_DISTANCE studs away from others, with a SLIP_CHANCE percentage based probability of occurring.<br>
-When a slip does occur a player is place randomly into Past, Present, or Future. They can be placed into the same period they were already.<br>
+Time slip is ran every SLIP_CHECK_INTERVAL seconds, on players ISOLATION_DISTANCE studs away from others, with a SLIP_CHANCE percentage based probability of occurring.<br><br>
+When a slip does occur a player is place randomly into Past, Present, or Future. They can be placed into the same period they were already.<br><br>
 You will only see and collide with objects or players in the same time period as you. If you stick together you won't lose your friends.<br>
-
 ![Time Slip Example|140](https://raw.githubusercontent.com/Sawblade-Entertainment/SawbladeWiki/refs/heads/main/images/4-26-2026/TimePeriodSlip.gif)
 
 In the gif above you can see:
