@@ -1,7 +1,9 @@
 name: Deploy Wiki
 
 on:
-  push: [ main ]
+  push:
+    branches:
+      - main
   workflow_dispatch:
 permissions:
   contents: read
