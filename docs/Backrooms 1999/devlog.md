@@ -1,4 +1,17 @@
 # Developer Logs
+---
+## 4/27/2026
+*Spatial Memory Mechanic*
+
+Spatial memory, in this context, refers to a mechanic where different map tiles can record and playback "memories". These memories are recently recorded player movements stored in a shared database. A players movement will be recorded at random, and only if they meet the minimum movement distance required within the timeframe of capture. There will be a minimum required distance from players when playing these memories back.<br><br>
+This mechanic is meant to explore the idea of a physical place holding memories like people do. The player will experience this as a silhouette too far away to distinguish or a shadow in the corner of their eye.<br><br>
+Here is a close up of a memory in action (a proper model will replace the black box in the final product):<br>
+![Memory Glimpse](https://raw.githubusercontent.com/Sawblade-Entertainment/SawbladeWiki/refs/heads/main/images/4-27-2026/MemoryGlimpse.gif)
+
+Test settings<br>
+- MINIMUM_TRAVEL = 3 (Studs)<br>
+- RECORD_STEPS = 5 (Positions saved)<br>
+- RECORD_TIME = 1 (Seconds)<br>
 
 ---
 
