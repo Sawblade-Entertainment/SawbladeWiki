@@ -1,5 +1,27 @@
 # Developer Logs
 ---
+## 4/30/2026
+*Input Controller*
+
+Working almost exactly like the ContextActionService. In fact it extends off the functionality of ContextActionService directly. Unlike the built-in service, here we can get analog inputs and have a little more control over the programatic generation of mobile buttons.<br><br>
+This library does not require another script to create a listener. All inputs events are handled internally and the values are retrieved with the following methods:<br><br>
+```
+InputController:GetPressed(action: string): boolean<br>
+InputController:GetAnalog(action: string): Vector2<br>
+InputController:GetAxis(action: string): number<br>
+```
+<br>
+_Use cases_<br>
+GetPressed Whether or not an action is pressed (true or false)<br>
+GetAnalog: Return a bidirectional action's value (like Joystick or WASD)<br>
+GetAxis: Return the value of an action (key pressed 0 OR 1, trigger pulled any value 0 TO 1)<br>
+![Action Script|700](https://raw.githubusercontent.com/Sawblade-Entertainment/SawbladeWiki/refs/heads/main/images/4-30-2026/ActionScript.png)
+
+Custom GUI generated from the config seen above. Custom analog inputs included, additionally the "AuxAction" allows for a custom action to be set when the player drags the virtual joystick far beyond the boundary of the image. In this case (and in most likely cases) this will be "sprint".<br>
+_Mobile Layout Pictured Below_<br>
+![Mobile Layout|700](https://raw.githubusercontent.com/Sawblade-Entertainment/SawbladeWiki/refs/heads/main/images/4-30-2026/MobileLayout.gif)
+
+---
 ## 4/27/2026
 *Spatial Memory Mechanic*
 
