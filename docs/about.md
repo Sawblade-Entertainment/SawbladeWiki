@@ -2,7 +2,7 @@
 
 ![SawbladeEntertainment Logo](img/sawblade_entertainment_logo_full.png)
 
-Sawblade entertainment was founded by sithlord77 jr and brycex1.
+Sawblade entertainment was founded by sithlord77 jr, laelae, and brycex1.
 
 We aim to create a variety of games that push the limits and focus on player enjoyment.
 
