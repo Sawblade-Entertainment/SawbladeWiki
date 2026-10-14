@@ -27,7 +27,7 @@ jobs:
 
       - name: Install Conversion Tool, Theme, and Minifier
         run: |
-          pip install mkdocs mkdocs-material mkdocs-minify-plugin
+          pip install mkdocs mkdocs-shadcn mkdocs-minify-plugin
 
       - name: Convert Markdown to HTML and Minify
         run: |
