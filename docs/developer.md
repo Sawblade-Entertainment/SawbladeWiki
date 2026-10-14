@@ -1,4 +1,7 @@
-# Packages
+# Developers
+This is a document of all developmental resources we offer publically.
+
+## Packages
 Public development packages
 - [Nami Water Surface Physics](https://github.com/Sawblade-Entertainment/nami)
     - This is a fork of [Icey Berg's Nami](https://github.com/Icey-berg/nami-docs)

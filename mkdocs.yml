@@ -8,9 +8,6 @@ theme:
     - search
     - excalidraw
   icon: img/sawblade_entertainment_logo_icon.png
-nav:
-  - Home: 'index.md'
-  - About: 'about.md'
 plugins:
   - search
   - minify:
