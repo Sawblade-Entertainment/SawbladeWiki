@@ -19,3 +19,5 @@ plugins:
       minify_css: true
       htmlmin_opts:
         remove_comments: true
+extra_css:
+  - stylesheets/extra.css
