@@ -2,16 +2,16 @@ site_name: Sawblade Wiki
 site_url: https://sawblade-entertainment.github.io/SawbladeWiki/
 repo_url: https://github.com/Sawblade-Entertainment/SawbladeWiki
 theme:
-  name: terminal
+  name: shadcn
   palette: dark
   features:
-    - footer.prev_next
-    - revision.date
+    - search
+    - excalidraw
+  icon: img/sawblade_entertainment_logo_icon.png
 nav:
   - Home: 'index.md'
   - About: 'about.md'
 plugins:
-  - git-revision-date
   - search
   - minify:
       minify_html: true
